@@ -1,0 +1,214 @@
+/* 
+    Document   : index
+    Created on : 2012-8-8, 16:02:07
+    Author     : Administrator
+    Description:
+        Purpose of the stylesheet follows.
+*/
+* {
+	margin-top: 0px;
+	margin-top: 0px;
+}
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	background-color:  #fff ;
+}
+
+#top {
+	
+    background-image: url(../images/logo.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	width: 1000px;
+	height: 150px;
+	border: 1px solid #cccccc;
+}
+
+#sc {
+	
+	margin: 0 auto;
+	position: relative;
+	float: right;
+	right: 200px;
+	top: 10px;
+	color: #fff;
+}
+
+#sc a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#nav {
+	margin: 0 auto;
+	width: 1000px;
+	height: 40px;
+	border: 1px solid #cccccc;
+	background: #0093f1;
+	text-decoration: none;
+	text-decoration-line: none;
+}
+
+#nav ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#nav ul li {
+	float: left;
+	text-align: center;
+	padding-top: 10px;
+}
+
+#nav ul li a {
+	color: #fff;
+	padding-left: 36px; /* 璋冩暣杩炴帴鐨勯棿璺� */
+	padding-right: 36px;
+	text-decoration: none;
+	border: 0px;
+}
+
+#nav ul li a:HOVER {
+	color: #000;
+	text-decoration: underline;
+}
+
+#body {
+	margin: 0 auto;
+	height: 1060px;
+	width: 1000px;
+	border: 1px solid #cccccc;
+	position: relative;
+}
+/* PPT   */
+#ph_news {
+	width: 500px;
+	height: auto;
+	border: 1px solid #fff;
+	position: absolute;
+	float: left;
+	left: 0px;
+	top: 5px;
+}
+/*  鍙宠竟鏍囬  */
+#new_tilte {
+	width: 518px;
+	height: 30px;
+	border: 1px solid #cccccc;
+	background-color: #2894FF;
+	background-image: url("../images/03.png");
+	background-repeat: no-repeat;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 30px;
+	font-size: 18px;
+	padding-left: 43px;
+}
+/* 鏈�柊鍔ㄦ� */
+.news {
+	width: 560px;
+	height: 310px;
+	border: 1px solid #ccc;
+	position: absolute;
+	float: left;
+	left: 433px;
+	top: 5px;
+}
+
+/*   鍐呭妗�     */
+#content {
+	padding: 3px;
+	line-height: 1.3em;
+}
+
+#content a:LINK {
+	text-decoration: none;
+}
+
+/* 宸﹁竟鐨勬爣棰�*/
+#history_tilte {
+	width: 420px;
+	height: 30px;
+	border: 1px solid #cccccc;
+	background: #97CBFF;
+	font-size: 16px;
+	line-height: 30px;
+}
+/* 宸﹁竟鐨勫唴瀹规 */
+.history {
+	width: 420px;
+	height: 200px;
+	border: 1px solid #cccccc;
+	position: absolute;
+	float: left;
+	top: 375px;
+	left: 0px;
+}
+/*   娲诲姩   */
+#travel {
+	width: 560px;
+	height: 416px;
+	border: 1px solid #cccccc;
+	position: absolute;
+	float: left;
+	top: 333px;
+	left: 433px;
+}
+
+/* 宸﹁繛鎺�   */
+#chaolink {
+	width: 420px;
+	height: 170px;
+	border: 1px solid #cccccc;
+	position: absolute;
+	float: left;
+	top: 580px;
+	left: 0px;
+}
+/*  222  */
+#school {
+	width: 560px;
+	height: 250px;
+	border: 1px solid #cccccc;
+	position: absolute;
+	float: left;
+	top: 630px;
+	left: 433px;
+}
+
+#photo {
+	width: 1000px;
+	height: 150px;
+	border: 1px solid #cccccc;
+	position: absolute;
+	float: left;
+	top: 756px;
+}
+
+#link {
+	width: 990px;
+	height: 90px;
+	border: 1px solid #cccccc;
+	position: absolute;
+	float: left;
+	top: 1040px;
+	left: 5px;
+	font-size: 12px;
+}
+
+#footer {
+	width: 1000px;
+	height: auto;
+	border: 1px solid #cccccc;
+	margin: 0 auto;
+	background: #3598FE;
+	text-align: center;
+	line-height: 25px;
+}
+
+#footer a:LINK {
+	text-decoration: none;
+}

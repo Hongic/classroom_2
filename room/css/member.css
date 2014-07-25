@@ -1,0 +1,45 @@
+@CHARSET "UTF-8";
+
+/*    成果主容器      */
+#member {
+	margin: 0 auto;
+	height: auto; /* 后面的时候高度改为 auto  */
+	width: 1000px;
+	border: 1px solid #cccccc;
+	background-color: #CCFFFF;
+	overflow: hidden;
+	position: relative;
+	min-height: 300px;
+}
+
+#member span {
+	text-decoration: none;
+	float: left;
+}
+
+.pic img {
+	width: 300px;
+	height: 300px;
+	border: 1px #999 solid;
+	padding: 1px;
+}
+
+.lcont {
+	width: 676px;
+	height: auto;
+	padding-right: 6px;
+	margin-top: -300px;
+	margin-left: 310px;
+	float: left;
+	line-height: 1.5em;
+}
+
+/*    成果主容器      */
+#produce {
+	margin: 0 auto;
+	height: auto;; /* 后面的时候高度改为 auto  */
+	width: 1000px;
+	border: 1px solid #cccccc;
+	background-color: #FFFFFF;
+	overflow: hidden;
+}

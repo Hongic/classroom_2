@@ -1,0 +1,143 @@
+﻿UL {
+	list-style-position: outside;
+	word-break: break-all;
+	list-style-type: none;
+	word-wrap: break-word;
+	margin: 0;
+	padding: 0;
+}
+
+.IndexPost-Title-Bg {
+	float: left;
+	width: 1008px;
+	text-align: left;
+	padding: 0;
+}
+
+#zishu_test {
+	width: 132px;
+	height: 100px;
+	float: left;
+	margin: 6px
+}
+
+#zishu_test:hover {
+	width: 132px;
+	border-bottom: 2px #e2e2e2 solid;
+	border-right: 2px #e2e2e2 solid;
+	margin: 5px;
+}
+
+#zishu_test li {
+	float: left;
+	width: 14%;
+	text-align: center;
+	margin: 0 auto;
+	list-style: none;
+}
+
+#zishu_test li a {
+	border: 1px solid #E2E2E2;
+	width: 130px;
+	display: block;
+	color: #858585;
+	text-decoration: none;
+	line-height: 17px;
+	font-family: "Arial";
+	font-size: 10px;
+}
+
+#zishu_test li img {
+	width: 130px;
+	height: 80px;
+	border-bottom: 1px solid #E2E2E2;
+}
+
+#zishu_test li span {
+	display: none;
+}
+
+#zishu_test li a:hover {
+	border: 1px solid #000;
+	height: 98px;
+	font-family: "Arial";
+	font-size: 10px;
+	text-align: left;
+	line-height: 17px;
+	text-align: center;
+}
+
+#zishu_test li a:hover span {
+	margin-top: 80px;
+	display: block;
+	background: #333;
+	width: 130px;
+	color: #fff;
+	position: absolute;
+	border-top: 1px solid #000;
+	font-family: "Arial";
+	font-size: 10px;
+}
+
+* html #zishu_test li a:hover span {
+	margin-left: 0px;
+} /* IE6 */
+*+html #zishu_test li a:hover span {
+	margin-left: 0px;
+} /* IE7*/
+
+/*---------- cool导航 ---------*/
+#navigation {
+	margin: 0;
+	width: 100%;
+	border-top: 1px #e2e2e2 solid;
+	border-bottom: 1px #e2e2e2 solid
+}
+
+#menus li {
+	display: inline;
+	list-style: none;
+	border: 1px #e2e2e2 solid
+}
+
+#menus li a {
+	background: transparent url(menu.gif) no-repeat;
+	display: block;
+	color: #382E1F;
+	height: 31px;
+	line-height: 31px;
+	padding: 0 20px;
+	margin-left: -10px;
+	text-decoration: none;
+	font-size: 11px;
+	float: left;
+	z-index: 1;
+}
+
+#menus li a:hover {
+	background-position: 0 -31px;
+}
+
+#menus li.current_page_item a,#menus li.current-cat a {
+	background-position: 0 -62px;
+}
+
+#menus li a.home {
+	background-position: 0 -93px;
+	width: 45px;
+	padding: 0;
+	margin-left: 0;
+	text-indent: -999em;
+}
+
+#menus li a.home:hover {
+	background-position: 0 -124px;
+}
+
+#menus li.current_page_item a.home {
+	background-position: 0 -155px;
+}
+
+#menus li a.lastmenu:hover {
+	background-position: 0 0;
+}

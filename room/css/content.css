@@ -1,0 +1,60 @@
+﻿@CHARSET "UTF-8";
+
+/*    主容器      */
+#content {
+	margin: 0 auto;
+	height: auto; /* 后面的时候高度改为 auto  */
+	width: 988px;
+	border: 1px solid #cccccc;
+	background-color: #ccc;
+	overflow: hidden;
+}
+/* 左-公告栏   */
+#notice {
+	width: 360px;
+	height: 300px; /* 不可随意更改  */
+	padding: 3px;
+	margin: 0px;
+	background: #fff;
+}
+
+/* 左-连接  */
+#connect {
+	width: 366px;
+	height: auto; /* 不可随意更改，改后影响右边的位置  */
+	padding: 0px;
+	margin: 0px;
+	background: #fff;
+	margin-top: 3px;
+}
+/* 标题 */
+.htitle {
+	background-color: #97CBFF;
+	width: 98%;
+	height: 30px;
+	font-size: 20px;
+	padding-top: 8px;
+	padding-left: 10px;
+	overflow: hidden;
+}
+/*  左-内容   */
+.zcon {
+	padding: 3px;
+	line-height: 1.3em;
+}
+/* 右边容器  */
+#main {
+	width: 608px;
+	height: auto; /* 后面的时候高度改为 auto  */
+	background-color: #fff;
+	
+	padding: 3px;
+	float: right;
+}
+
+.us p {
+	height: auto;
+	padding: 6px;
+	line-height: 1.6em;
+	text-indent: 2em;
+}

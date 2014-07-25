@@ -1,0 +1,25 @@
+@CHARSET "UTF-8";
+
+* {
+	background-color: rgb(241, 253, 247);
+}
+
+table {
+	font-size: 16px;
+	margin: 20px 60px;
+}
+
+td {
+	height: 36px;
+}
+/* input 框  */
+.in {
+	height: 20px;
+	background-color: rgb(185, 249, 190);
+	padding: 3px;
+}
+
+.r {
+	text-align: right;
+	font-size: 18px;
+}

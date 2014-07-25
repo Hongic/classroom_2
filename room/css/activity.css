@@ -1,0 +1,28 @@
+@CHARSET "UTF-8";
+
+/*    主容器      */
+#activity {
+	margin: 0 auto;
+	height: auto; /* 后面的时候高度改为 auto  */
+	width: 988px;
+	border: 1px solid #cccccc;
+	background-color: #cff;
+	overflow: hidden;
+	min-height: 360px;
+	padding: 6px;
+}
+
+#activity a:LINK {
+	text-decoration: none;
+	line-height: 1.7em;
+	margin: 3px;
+	margin-top: 6px;
+}
+
+#activity a:HOVER {
+	text-decoration: none;
+	line-height: 1.7em;
+	margin: 3px;
+	background-color: #FFF;
+	color: #0000C6;
+}

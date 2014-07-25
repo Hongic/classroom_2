@@ -1,0 +1,26 @@
+@CHARSET "UTF-8";
+
+.page a:link {
+	color: #0000FF;
+	text-decoration: none;
+}
+
+.page a:visited {
+	text-decoration: none;
+	color: #0000FF;
+}
+
+.page a:hover {
+	text-decoration: none;
+	color: #0000FF;
+}
+
+.page a:active {
+	text-decoration: none;
+	color: #0000FF;
+}
+
+.page {
+	color: #0000FF;
+	background-color: #fff;
+}

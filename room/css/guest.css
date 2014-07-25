@@ -1,0 +1,22 @@
+@CHARSET "UTF-8";
+
+/*  留言   */
+.r {
+	text-align: right;
+	width: 100px;
+	height: 30px; 
+	padding : 1px;
+	border: 0px #fff solid;
+	padding: 1px;
+}
+
+.l {
+	text-align: left;
+	width: 400px;
+	padding: 1px;
+	border: 0px #09c solid;
+}
+
+hr {
+	border: 1px blue dashed;
+}

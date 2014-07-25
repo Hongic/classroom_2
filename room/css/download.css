@@ -1,0 +1,11 @@
+@CHARSET "UTF-8";
+
+/*    主容器      */
+#down {
+	margin: 0 auto;
+	height: auto; /* 后面的时候高度改为 auto  */
+	width: 1000px;
+	border: 1px solid #cccccc;
+	background-color: #fff;
+	min-height: 430px;
+}
